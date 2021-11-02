@@ -1,1 +1,2 @@
-# ecs260-socio-techinal-factors-for-github-local-ecosystem
+# ECS 260: Impact of socio-technical factors on the effectiveness of a local ecosystem on GitHub
+
