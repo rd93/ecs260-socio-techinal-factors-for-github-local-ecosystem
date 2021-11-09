@@ -1,0 +1,665 @@
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 71, in <module>
+    metrics_obj['repos'].append(extract_metrics(dependency, False))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 22, in extract_metrics
+    total_comments += pr.comments
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/PullRequest.py", line 131, in comments
+    self._completeIfNotSet(self._comments)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 297, in _completeIfNotSet
+    self._completeIfNeeded()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 301, in _completeIfNeeded
+    self.__complete()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 308, in __complete
+    headers, data = self._requester.requestJsonAndCheck("GET", self._url.value)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 353, in requestJsonAndCheck
+    return self.__check(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 378, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.RateLimitExceededException: 403 {"message": "API rate limit exceeded for user ID 12571940.", "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Found repo in DB, skipping...
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Found repo in DB, skipping...
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 71, in <module>
+    metrics_obj['repos'].append(extract_metrics(dependency, False))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 22, in extract_metrics
+    total_comments += pr.comments
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/PullRequest.py", line 131, in comments
+    self._completeIfNotSet(self._comments)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 297, in _completeIfNotSet
+    self._completeIfNeeded()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 301, in _completeIfNeeded
+    self.__complete()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 308, in __complete
+    headers, data = self._requester.requestJsonAndCheck("GET", self._url.value)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 353, in requestJsonAndCheck
+    return self.__check(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 378, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.RateLimitExceededException: 403 {"message": "API rate limit exceeded for user ID 12571940.", "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Found repo in DB, skipping...
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Found repo in DB, skipping...
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 71, in <module>
+    metrics_obj['repos'].append(extract_metrics(dependency, False))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 22, in extract_metrics
+    total_comments += pr.comments
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/PullRequest.py", line 131, in comments
+    self._completeIfNotSet(self._comments)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 297, in _completeIfNotSet
+    self._completeIfNeeded()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 301, in _completeIfNeeded
+    self.__complete()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 308, in __complete
+    headers, data = self._requester.requestJsonAndCheck("GET", self._url.value)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 353, in requestJsonAndCheck
+    return self.__check(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 378, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.RateLimitExceededException: 403 {"message": "API rate limit exceeded for user ID 12571940.", "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Found repo in DB, skipping...
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Found repo in DB, skipping...
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 71, in <module>
+    metrics_obj['repos'].append(extract_metrics(dependency, False))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 22, in extract_metrics
+    total_comments += pr.comments
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/PullRequest.py", line 131, in comments
+    self._completeIfNotSet(self._comments)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 297, in _completeIfNotSet
+    self._completeIfNeeded()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 301, in _completeIfNeeded
+    self.__complete()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 308, in __complete
+    headers, data = self._requester.requestJsonAndCheck("GET", self._url.value)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 353, in requestJsonAndCheck
+    return self.__check(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 378, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.RateLimitExceededException: 403 {"message": "API rate limit exceeded for user ID 12571940.", "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Skipping because of dependency size: 48
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Found repo in DB, skipping...
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Skipping because of dependency size: 48
+Extracting for repo 25:  apache/buildr
+Skipping because of dependency size: 60
+Extracting for repo 26:  apache/maven-doxia
+Extracting for repo 27:  apache/maven-plugin-tools
+Skipping because of dependency size: 57
+Extracting for repo 28:  apache/commons-logging
+Skipping because of dependency size: 59
+Extracting for repo 29:  apache/commons-cli
+Skipping because of dependency size: 59
+Extracting for repo 30:  apache/servicemix4-legal
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 71, in <module>
+    metrics_obj['repos'].append(extract_metrics(dependency, False))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 22, in extract_metrics
+    total_comments += pr.comments
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/PullRequest.py", line 131, in comments
+    self._completeIfNotSet(self._comments)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 297, in _completeIfNotSet
+    self._completeIfNeeded()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 301, in _completeIfNeeded
+    self.__complete()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 308, in __complete
+    headers, data = self._requester.requestJsonAndCheck("GET", self._url.value)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 353, in requestJsonAndCheck
+    return self.__check(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 378, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.RateLimitExceededException: 403 {"message": "API rate limit exceeded for user ID 12571940.", "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Skipping because of dependency size: 48
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Found repo in DB, skipping...
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Skipping because of dependency size: 48
+Extracting for repo 25:  apache/buildr
+Skipping because of dependency size: 60
+Extracting for repo 26:  apache/maven-doxia
+Found repo in DB, skipping...
+Extracting for repo 27:  apache/maven-plugin-tools
+Skipping because of dependency size: 57
+Extracting for repo 28:  apache/commons-logging
+Skipping because of dependency size: 59
+Extracting for repo 29:  apache/commons-cli
+Skipping because of dependency size: 59
+Extracting for repo 30:  apache/servicemix4-legal
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 71, in <module>
+    metrics_obj['repos'].append(extract_metrics(dependency, False))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 22, in extract_metrics
+    total_comments += pr.comments
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/PullRequest.py", line 131, in comments
+    self._completeIfNotSet(self._comments)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 297, in _completeIfNotSet
+    self._completeIfNeeded()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 301, in _completeIfNeeded
+    self.__complete()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 308, in __complete
+    headers, data = self._requester.requestJsonAndCheck("GET", self._url.value)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 353, in requestJsonAndCheck
+    return self.__check(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 378, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.RateLimitExceededException: 403 {"message": "API rate limit exceeded for user ID 12571940.", "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Skipping because of dependency size: 48
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Found repo in DB, skipping...
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Skipping because of dependency size: 48
+Extracting for repo 25:  apache/buildr
+Skipping because of dependency size: 60
+Extracting for repo 26:  apache/maven-doxia
+Found repo in DB, skipping...
+Extracting for repo 27:  apache/maven-plugin-tools
+Skipping because of dependency size: 57
+Extracting for repo 28:  apache/commons-logging
+Skipping because of dependency size: 59
+Extracting for repo 29:  apache/commons-cli
+Skipping because of dependency size: 59
+Extracting for repo 30:  apache/servicemix4-legal
+Traceback (most recent call last):
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1344, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 71, in <module>
+    metrics_obj['repos'].append(extract_metrics(dependency, False))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 22, in extract_metrics
+    total_comments += pr.comments
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/PullRequest.py", line 131, in comments
+    self._completeIfNotSet(self._comments)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 297, in _completeIfNotSet
+    self._completeIfNeeded()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 301, in _completeIfNeeded
+    self.__complete()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/GithubObject.py", line 308, in __complete
+    headers, data = self._requester.requestJsonAndCheck("GET", self._url.value)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 354, in requestJsonAndCheck
+    *self.requestJson(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 454, in requestJson
+    return self.__requestEncode(cnx, verb, url, parameters, headers, input, encode)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 528, in __requestEncode
+    status, responseHeaders, output = self.__requestRaw(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 555, in __requestRaw
+    response = cnx.getresponse()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 127, in getresponse
+    r = verb(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
+Extracting for repo 1:  apache/tapestry4
+Found repo in DB, skipping...
+Extracting for repo 2:  apache/maven-wagon
+Found repo in DB, skipping...
+Extracting for repo 3:  apache/maven-resources
+Skipping because of dependency size: 56
+Extracting for repo 4:  apache/xmlgraphics-fop
+Skipping because of dependency size: 59
+Extracting for repo 5:  apache/maven-scm
+Skipping because of dependency size: 59
+Extracting for repo 6:  apache/maven-plugins
+Skipping because of dependency size: 60
+Extracting for repo 7:  apache/maven-release
+Found repo in DB, skipping...
+Extracting for repo 8:  apache/pluto
+Skipping because of dependency size: 58
+Extracting for repo 9:  apache/commons-collections
+Skipping because of dependency size: 59
+Extracting for repo 10:  apache/poi
+Skipping because of dependency size: 60
+Extracting for repo 11:  apache/commons-codec
+Skipping because of dependency size: 60
+Extracting for repo 12:  apache/maven-shared
+Skipping because of dependency size: 60
+Extracting for repo 13:  apache/commons-lang
+Skipping because of dependency size: 60
+Extracting for repo 14:  apache/log4j
+Inactive entry, skipping...
+Extracting for repo 15:  apache/xmlgraphics-commons
+Skipping because of dependency size: 58
+Extracting for repo 16:  apache/struts1
+Skipping because of dependency size: 60
+Extracting for repo 17:  apache/commons-io
+Skipping because of dependency size: 60
+Extracting for repo 18:  apache/httpcomponents-core
+Skipping because of dependency size: 59
+Extracting for repo 19:  apache/maven-doxia-sitetools
+Skipping because of dependency size: 48
+Extracting for repo 20:  apache/httpcomponents-client
+Skipping because of dependency size: 59
+Extracting for repo 21:  apache/directory-server
+Skipping because of dependency size: 58
+Extracting for repo 22:  apache/maven-jxr
+Found repo in DB, skipping...
+Extracting for repo 23:  apache/avro
+Skipping because of dependency size: 57
+Extracting for repo 24:  apache/maven-artifact
+Skipping because of dependency size: 48
+Extracting for repo 25:  apache/buildr
+Skipping because of dependency size: 60
+Extracting for repo 26:  apache/maven-doxia
+Found repo in DB, skipping...
+Extracting for repo 27:  apache/maven-plugin-tools
+Skipping because of dependency size: 57
+Extracting for repo 28:  apache/commons-logging
+Skipping because of dependency size: 59
+Extracting for repo 29:  apache/commons-cli
+Skipping because of dependency size: 59
+Extracting for repo 30:  apache/servicemix4-legal
+Traceback (most recent call last):
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fba246d9430>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/apache/servicemix4-legal (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fba246d9430>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 69, in <module>
+    metrics_obj['repos'].append(extract_metrics(repo_name, True))
+  File "workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/metricExtraction.py", line 13, in extract_metrics
+    repo = g.get_repo(repo_name)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/MainClass.py", line 330, in get_repo
+    headers, data = self.__requester.requestJsonAndCheck("GET", url)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 354, in requestJsonAndCheck
+    *self.requestJson(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 454, in requestJson
+    return self.__requestEncode(cnx, verb, url, parameters, headers, input, encode)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 528, in __requestEncode
+    status, responseHeaders, output = self.__requestRaw(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 555, in __requestRaw
+    response = cnx.getresponse()
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/github/Requester.py", line 127, in getresponse
+    r = verb(
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/rachit/workspace/ecs260-socio-techinal-factors-for-github-local-ecosystem/venv/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/apache/servicemix4-legal (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fba246d9430>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))

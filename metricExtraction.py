@@ -16,6 +16,9 @@ def extract_metrics(repo_name, is_src):
     total_comments = 0
 
     for pr in repo.get_pulls(state='closed'):
+        # Stopping at 100 PRs
+        if count > 100:
+            break
         created_time = pr.created_at
         closed_time = pr.closed_at
         latency = closed_time - created_time
