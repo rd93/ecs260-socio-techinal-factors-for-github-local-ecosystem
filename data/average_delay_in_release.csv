@@ -1,0 +1,227 @@
+,project,average_delay_in_release
+0,accumulo,86 days 00:00:00
+1,activemq,16 days 21:25:42.857142857
+2,airavata,
+3,airflow,1 days 20:32:52.602739726
+4,allura,
+5,ambari,
+6,ant,59 days 03:00:00
+7,any23,0 days 00:00:00
+8,apisix,22 days 04:48:00
+9,apr,0 days 00:00:00
+10,archiva,0 days 00:00:00
+11,aries,9 days 04:00:00
+12,arrow,11 days 00:00:00
+13,asterixdb,25 days 00:00:00
+14,atlas,101 days 18:00:00
+15,avro,0 days 00:00:00
+16,axis,24 days 10:30:00
+17,bahir,0 days 00:00:00
+18,beam,40 days 00:00:00
+19,bigtop,234 days 00:00:00
+20,bloodhound,
+21,bookkeeper,68 days 12:00:00
+22,brooklyn,0 days 00:00:00
+23,buildr,
+24,bval,22 days 09:36:00
+25,calcite,94 days 14:24:00
+26,camel,4 days 20:55:23.076923076
+27,carbondata,33 days 04:00:00
+28,cassandra,3 days 08:34:17.142857142
+29,cayenne,63 days 06:00:00
+30,celix,
+31,chemistry,0 days 00:00:00
+32,clerezza,6 days 12:42:21.176470588
+33,cloudstack,149 days 00:00:00
+34,cocoon,0 days 18:24:00
+35,commons,7 days 09:36:00
+36,cordova,11 days 00:32:43.636363636
+37,couchdb,163 days 16:00:00
+38,creadur,jackrabbit
+39,ctakes,100 days 00:00:00
+40,curator,127 days 00:00:00
+41,cxf,76 days 08:00:00
+42,daffodil,0 days 00:00:00
+43,datafu,231 days 00:00:00
+44,datasketches,142 days 19:12:00
+45,db,11 days 03:25:42.857142857
+46,deltaspike,0 days 00:00:00
+47,directory,21 days 01:20:00
+48,dolphinscheduler,51 days 00:00:00
+49,drill,278 days 00:00:00
+50,druid,87 days 00:00:00
+51,dubbo,21 days 17:27:16.363636363
+52,echarts,56 days 07:03:31.764705882
+53,empire-db,
+54,felix,4 days 22:19:12
+55,fineract,161 days 12:00:00
+56,flex,0 days 00:00:00
+57,flink,23 days 15:00:00
+58,flume,0 days 00:00:00
+59,fluo,0 days 00:00:00
+60,freemarker,0 days 00:00:00
+61,geode,8 days 06:32:43.636363636
+62,geronimo,17 days 23:06:40
+63,giraph,12 days 08:00:00
+64,gobblin,298 days 00:00:00
+65,gora,0 days 00:00:00
+66,griffin,
+67,groovy,39 days 13:42:51.428571428
+68,guacamole,25 days 13:42:51.428571428
+69,hadoop,21 days 16:30:00
+70,hawq,136 days 00:00:00
+71,hbase,53 days 10:40:00
+72,helix,164 days 12:00:00
+73,hive,79 days 04:48:00
+74,httpcomponents,19 days 10:33:36
+75,httpd,57 days 06:00:00
+76,hudi,59 days 17:08:34.285714285
+77,iceberg,220 days 00:00:00
+78,ignite,20 days 21:20:00
+79,impala,374 days 00:00:00
+80,incubator-age,80 days 12:00:00
+81,incubator-annotator,420 days 00:00:00
+82,incubator-batchee,
+83,incubator-brpc,2 days 00:00:00
+84,incubator-crail,
+85,incubator-datalab,
+86,incubator-doris,
+87,incubator-eventmesh,
+88,incubator-flagon,
+89,incubator-heron,0 days 00:00:00
+90,incubator-hivemall,
+91,incubator-hop,0 days 00:00:00
+92,incubator-inlong,56 days 00:00:00
+93,incubator-joshua,
+94,incubator-kyuubi,39 days 00:00:00
+95,incubator-liminal,71 days 12:00:00
+96,incubator-livy,54 days 00:00:00
+97,incubator-milagro,0 days 00:00:00
+98,incubator-mxnet,
+99,incubator-nemo,
+100,incubator-nlpcraft,125 days 00:00:00
+101,incubator-nuttx,33 days 14:24:00
+102,incubator-pagespeed,0 days 00:00:00
+103,incubator-pegasus,209 days 00:00:00
+104,incubator-ponymail,0 days 00:00:00
+105,incubator-sedona,121 days 00:00:00
+106,incubator-shenyu,
+107,incubator-spot,
+108,incubator-streampipes,0 days 00:00:00
+109,incubator-teaclave,105 days 16:00:00
+110,incubator-toree,0 days 00:00:00
+111,incubator-training,
+112,incubator-tuweni,
+113,incubator-yunikorn,0 days 00:00:00
+114,iotdb,77 days 04:48:00
+115,isis,415 days 00:00:00
+116,jackrabbit,24 days 08:24:00
+117,james,44 days 16:48:00
+118,jclouds,26 days 06:51:25.714285714
+119,jena,
+120,jmeter,50 days 06:00:00
+121,johnzon,160 days 16:00:00
+122,jspwiki,
+123,juddi,
+124,juneau,17 days 14:24:00
+125,kafka,13 days 21:49:05.454545454
+126,karaf,31 days 05:08:34.285714285
+127,knox,54 days 05:20:00
+128,kudu,88 days 06:00:00
+129,kylin,102 days 00:00:00
+130,libcloud,
+131,logging,37 days 20:18:27.692307692
+132,lucene,77 days 16:00:00
+133,lucenenet,37 days 03:41:32.307692307
+134,madlib,
+135,mahout,10 days 08:00:00
+136,manifoldcf,32 days 00:00:00
+137,maven,5 days 13:21:49.090909090
+138,mesos,48 days 00:00:00
+139,mina,53 days 02:40:00
+140,mnemonic,67 days 13:42:51.428571428
+141,myfaces,10 days 10:06:18.947368421
+142,mynewt,0 days 00:00:00
+143,netbeans,0 days 13:50:58.446362515
+144,nifi,121 days 06:00:00
+145,nutch,202 days 00:00:00
+146,ofbiz,80 days 00:00:00
+147,olingo,10 days 05:38:49.411764705
+148,oodt,
+149,oozie,
+150,openjpa,157 days 12:00:00
+151,openmeetings,
+152,opennlp,158 days 00:00:00
+153,openoffice,
+154,openwebbeans,132 days 16:00:00
+155,openwhisk,8 days 17:24:00
+156,orc,25 days 12:00:00
+157,ozone,
+158,parquet,76 days 04:00:00
+159,pdfbox,143 days 16:00:00
+160,perl,0 days 00:00:00
+161,phoenix,20 days 09:36:00
+162,pig,0 days 00:00:00
+163,pinot,125 days 00:00:00
+164,pivot,
+165,plc4x,279 days 00:00:00
+166,poi,13 days 00:00:00
+167,portals,0 days 00:00:00
+168,pulsar,3 days 16:00:00
+169,qpid,37 days 16:36:55.384615384
+170,ranger,69 days 00:00:00
+171,ratis,115 days 20:34:17.142857142
+172,reef,0 days 00:00:00
+173,river,0 days 00:00:00
+174,rocketmq,120 days 00:00:00
+175,roller,67 days 20:00:00
+176,royale,60 days 03:25:42.857142857
+177,rya,512 days 00:00:00
+178,samza,7 days 17:46:40
+179,santuario,17 days 08:00:00
+180,serf,
+181,servicecomb,14 days 18:00:00
+182,servicemix,0 days 00:00:00
+183,shardingsphere,30 days 09:00:00
+184,shiro,19 days 22:51:25.714285714
+185,singa,
+186,sis,451 days 00:00:00
+187,skywalking,16 days 04:48:00
+188,sling,9 days 08:01:23.720930232
+189,solr,0 days 00:00:00
+190,spamassassin,93 days 08:00:00
+191,spark,13 days 17:27:16.363636363
+192,storm,2 days 08:00:00
+193,streams,0 days 00:00:00
+194,struts,28 days 09:36:00
+195,submarine,65 days 00:00:00
+196,subversion,74 days 00:00:00
+197,superset,46 days 04:14:07.058823529
+198,synapse,0 days 00:00:00
+199,syncope,28 days 00:00:00
+200,systemds,40 days 08:00:00
+201,tapestry,21 days 08:50:31.578947368
+202,tcl,62 days 00:00:00
+203,tez,29 days 12:00:00
+204,thrift,47 days 05:20:00
+205,tika,49 days 00:00:00
+206,tinkerpop,0 days 00:00:00
+207,tomcat,56 days 21:00:00
+208,tomee,8 days 13:38:49.411764705
+209,trafficcontrol,0 days 00:00:00
+210,trafficserver,55 days 20:00:00
+211,turbine,14 days 09:10:35.294117647
+212,tvm,154 days 12:00:00
+213,uima,21 days 07:30:00
+214,unomi,61 days 00:00:00
+215,usergrid,
+216,vcl,0 days 00:00:00
+217,velocity,61 days 00:00:00
+218,wicket,161 days 00:00:00
+219,ws,49 days 08:00:00
+220,xalan,0 days 00:00:00
+221,xerces,0 days 00:00:00
+222,xmlgraphics,0 days 00:00:00
+223,yetus,52 days 00:00:00
+224,zeppelin,102 days 12:00:00
+225,zookeeper,44 days 00:00:00

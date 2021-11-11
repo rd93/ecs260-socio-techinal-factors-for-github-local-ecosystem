@@ -2,10 +2,9 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
-from github import Github
+import github
 
-exit()
-g = Github()
+g = github.Github()
 
 client = MongoClient('localhost', 27017)
 db = client.githubEcosystem
