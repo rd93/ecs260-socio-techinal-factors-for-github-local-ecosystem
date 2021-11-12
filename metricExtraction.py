@@ -6,7 +6,7 @@ db = client.githubEcosystem
 repo_collection = db.repos
 metric_collection = db.metrics
 
-g = Github('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')
+g = Github('')
 
 
 def extract_metrics(repo_name, is_src):
