@@ -56,13 +56,13 @@ for db_obj in repo_collection.find():
     print("Extracting for repo " + str(i) + ": ", repo_name)
     i += 1
 
-    if db_obj['is_active'] is False:
-        print("Inactive entry, skipping...")
-        continue
+    # if db_obj['is_active'] is False:
+    #     print("Inactive entry, skipping...")
+    #     continue
 
-    if len(db_obj['dependencies']) > 40:
-        print("Skipping because of dependency size: " + str(len(db_obj['dependencies'])))
-        continue
+    # if len(db_obj['dependencies']) > 60:
+    #     print("Skipping because of dependency size: " + str(len(db_obj['dependencies'])))
+    #     continue
 
     if metric_collection.find_one({"src_repo_name": repo_name}):
         print("Found repo in DB, skipping...")
@@ -70,7 +70,13 @@ for db_obj in repo_collection.find():
 
     metrics_obj = {'src_repo_name': repo_name, 'repos': []}
     metrics_obj['repos'].append(extract_metrics(repo_name, True))
-    for dependency in db_obj['dependencies']:
-        metrics_obj['repos'].append(extract_metrics(dependency, False))
 
-    metric_collection.insert_one(metrics_obj)
+    try:
+        for dependency in db_obj['dependencies']:
+            metrics_obj['repos'].append(extract_metrics(dependency, False))
+    except Exception as e:
+        print(e)
+
+    total_dependencies = len(db_obj['dependencies'])
+    if len(metrics_obj['repos']) >= (total_dependencies / 2):
+        metric_collection.insert_one(metrics_obj)
