@@ -1,12 +1,14 @@
 from pymongo import MongoClient
 from bson.json_util import dumps
-import csv
+import os
+
+curr_dir = os.path.dirname(os.path.abspath(__file__))
 
 client = MongoClient('localhost', 27017)
 db = client.githubEcosystem
 repo_collection = db.repos
 metric_collection = db.metrics
-# cursor = metric_collection.find({})
+cursor = metric_collection.find({})
 
 # with open('op.csv', 'w') as f:
 #     wtr = csv.writer(f)
@@ -22,9 +24,11 @@ print(repo_count)
 print(dep_count)
 
 
-# with open('op.json', 'w') as file:
-#     file.write('{data:[":')
-#     for document in cursor:
-#         file.write(dumps(document))
-#         file.write(',')
-#     file.write(']}')
+with open(curr_dir + '/data/mongo_dump.json', 'w') as file:
+    file.write('{"data":[')
+    for document in cursor:
+        file.write(dumps(document))
+        file.write(',')
+    file.seek(file.tell() - 1, os.SEEK_SET)
+    file.truncate()
+    file.write(']}')

@@ -6,12 +6,12 @@ import os
 
 curr_file = os.path.dirname(os.path.abspath(__file__))
 average_delay_file = curr_file + "/data/average_delay_in_release.csv"
-num_email_file = curr_file + "/data/no_of_emails.csv"
-metric_json_file = curr_file + "/repo_metrics.json"
+# num_email_file = curr_file + "/data/no_of_emails.csv"
+# metric_json_file = curr_file + "/repo_metrics.json"
 
-new_data_file = curr_file + "/data/op.json"
+new_data_file = curr_file + "/data/mongo_dump.json"
 
-print(metric_json_file)
+# print(metric_json_file)
 
 def extract_data_from_csv():
     result = {}
@@ -24,25 +24,25 @@ def extract_data_from_csv():
             # print(row)
     return result
 
-def extract_data_from_csv_delay():
-    result = {}
-    with open(num_email_file) as file:
-        csvreader = csv.reader(file)
-        for id, row in enumerate(csvreader):
-            if id == 0:
-                continue
-            name = row[1].split(".")
-            name = name[0]
-            result[name] = row[2]
-            # print(row)
-    return result
+# def extract_data_from_csv_delay():
+#     result = {}
+#     with open(num_email_file) as file:
+#         csvreader = csv.reader(file)
+#         for id, row in enumerate(csvreader):
+#             if id == 0:
+#                 continue
+#             name = row[1].split(".")
+#             name = name[0]
+#             result[name] = row[2]
+#             # print(row)
+#     return result
 
 
 
 
 def create_csv_from_metric_json():
 
-    with open(curr_file + '/output/op4.csv','w') as w:
+    with open(curr_file + '/data/repo_data.csv','w') as w:
         wtr = csv.writer(w)
         wtr.writerow(["Repo Name","Release Count", "Commit Count", "PR Count", "Average Latency", "Average Comments", "Contributors"])
         # num_of_emails_data = extract_data_from_csv()

@@ -6,7 +6,7 @@ db = client.githubEcosystem
 repo_collection = db.repos
 metric_collection = db.metrics
 
-g = Github('')
+g = Github('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')
 
 
 def extract_metrics(repo_name, is_src):
@@ -71,11 +71,11 @@ for db_obj in repo_collection.find():
     metrics_obj = {'src_repo_name': repo_name, 'repos': []}
     metrics_obj['repos'].append(extract_metrics(repo_name, True))
 
-    try:
-        for dependency in db_obj['dependencies']:
+    for dependency in db_obj['dependencies']:
+        try:
             metrics_obj['repos'].append(extract_metrics(dependency, False))
-    except Exception as e:
-        print(e)
+        except Exception as e:
+            print(e)
 
     total_dependencies = len(db_obj['dependencies'])
     if len(metrics_obj['repos']) >= (total_dependencies / 2):
