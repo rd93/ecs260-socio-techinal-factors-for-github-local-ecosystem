@@ -1,0 +1,298 @@
+{
+"age": {
+"description": "AGE is a multi-model database that enables graph and relational models built on PostgreSQL.",
+"homepage": "http://age.incubator.apache.org/",
+"name": "Apache AGE (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-04"
+},
+"annotator": {
+"description": "Annotator provides annotation enabling code for browsers, servers, and humans.",
+"homepage": "http://annotator.incubator.apache.org/",
+"name": "Apache Annotator (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2016-08"
+},
+"bluemarlin": {
+"description": "BlueMarlin will develop a web service to add intelligence functionality to a plain ad system.",
+"homepage": "http://bluemarlin.incubator.apache.org/",
+"name": "Apache BlueMarlin (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-06"
+},
+"brpc": {
+"description": "brpc is an industrial-grade RPC framework for building reliable and high-performance services.",
+"homepage": "http://brpc.incubator.apache.org/",
+"name": "Apache brpc (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2018-11"
+},
+"crail": {
+"description": "Crail is a storage platform for sharing performance critical data in distributed data processing jobs at very high speed.",
+"homepage": "http://crail.incubator.apache.org/",
+"name": "Apache Crail (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2017-11"
+},
+"datalab": {
+"description": "DataLab is a platform for creating self-service, exploratory data science environments in the cloud using best-of-breed data science tools.",
+"homepage": "http://datalab.incubator.apache.org/",
+"name": "Apache DataLab (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2018-08"
+},
+"doris": {
+"description": "Doris is a MPP-based interactive SQL data warehousing for reporting and analysis.",
+"homepage": "http://doris.incubator.apache.org/",
+"name": "Apache Doris (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2018-07"
+},
+"eventmesh": {
+"description": "EventMesh is a dynamic cloud-native basic service runtime used to decouple the application and middleware layer.",
+"homepage": "http://eventmesh.incubator.apache.org/",
+"name": "Apache EventMesh (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2021-02"
+},
+"flagon": {
+"description": "Flagon is a software tool usability testing platform",
+"homepage": "http://flagon.incubator.apache.org/",
+"name": "Apache Flagon (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2016-07"
+},
+"heron": {
+"description": "A real-time, distributed, fault-tolerant stream processing engine.",
+"homepage": "http://heron.incubator.apache.org/",
+"name": "Apache Heron (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2017-06"
+},
+"hivemall": {
+"description": "Hivemall is a library for machine learning implemented as Hive UDFs/UDAFs/UDTFs.",
+"homepage": "http://hivemall.incubator.apache.org/",
+"name": "Apache Hivemall (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2016-09"
+},
+"hop": {
+"description": "Hop is short for the Hop Orchestration Platform. Written completely in Java it aims to provide a wide range of data orchestration tools, including a visual development environment, servers, metadata analysis, auditing services and so on. As a platform, Hop also wants to be a reusable library so that it can be easily reused by other software.",
+"homepage": "http://hop.incubator.apache.org/",
+"name": "Apache Hop (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-09"
+},
+"inlong": {
+"description": "InLong is a distributed messaging queue (MQ) system.",
+"homepage": "http://inlong.incubator.apache.org/",
+"name": "Apache InLong (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2019-11"
+},
+"kyuubi": {
+"description": "Kyuubi is a distributed multi-tenant Thrift JDBC/ODBC server for large-scale data management, processing, and analytics, built on top of Apache Spark and designed to support more engines.",
+"homepage": "http://kyuubi.incubator.apache.org/",
+"name": "Apache Kyuubi (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2021-06"
+},
+"liminal": {
+"description": "Apache Liminal is an end-to-end platform for data engineers and scientists, allowing them to build, train and deploy machine learning models in a robust and agile way.",
+"homepage": "http://liminal.incubator.apache.org/",
+"name": "Apache Liminal (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-05"
+},
+"linkis": {
+"description": "Apache Linkis is a computation middleware project, which decouples the upper applications and the underlying data engines, provides standardized interfaces (REST, JDBC, WebSocket etc.) to easily connect to various underlying engines (Spark, Presto, Flink, etc.).",
+"homepage": "http://linkis.incubator.apache.org/",
+"name": "Apache Linkis (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2021-08"
+},
+"livy": {
+"description": "Livy is web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts.",
+"homepage": "http://livy.incubator.apache.org/",
+"name": "Apache Livy (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2017-06"
+},
+"marvin": {
+"description": "Marvin-AI is an open-source artificial intelligence (AI) platform that helps data scientists, prototype and productionalize complex solutions with a scalable, low-latency, language-agnostic, and standardized architecture while simplifies the process of exploration and modeling.",
+"homepage": "http://marvin.incubator.apache.org/",
+"name": "Apache Marvin-AI (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2018-08"
+},
+"milagro": {
+"description": "Milagro is core security infrastructure and crypto libraries for decentralized networks and distributed systems.",
+"homepage": "http://milagro.incubator.apache.org/",
+"name": "Apache Milagro (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2015-12"
+},
+"mxnet": {
+"description": "A Flexible and Efficient Library for Deep Learning",
+"homepage": "http://mxnet.incubator.apache.org/",
+"name": "Apache MXNet (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2017-01"
+},
+"nemo": {
+"description": "Nemo is a data processing system to flexibly control the runtime behaviors of a job to adapt to varying deployment characteristics.",
+"homepage": "http://nemo.incubator.apache.org/",
+"name": "Apache Nemo (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2018-02"
+},
+"nlpcraft": {
+"description": "A Java API for NLU applications",
+"homepage": "http://nlpcraft.incubator.apache.org/",
+"name": "Apache NLPCraft (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-02"
+},
+"nuttx": {
+"description": "NuttX is a mature, real-time embedded operating system (RTOS).",
+"homepage": "http://nuttx.incubator.apache.org/",
+"name": "Apache NuttX (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2019-12"
+},
+"pagespeed": {
+"description": "\n            PageSpeed represents a series of open source technologies to help make the\n            web faster by rewriting web pages to reduce latency and bandwidth.\n        ",
+"homepage": "http://pagespeed.incubator.apache.org/",
+"name": "Apache PageSpeed (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2017-09"
+},
+"pegasus": {
+"description": "Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.",
+"homepage": "http://pegasus.incubator.apache.org/",
+"name": "Apache Pegasus (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-06"
+},
+"ponymail": {
+"description": "Pony Mail is a mail-archiving, archive viewing, and interaction service, that can be integrated with many email platforms.",
+"homepage": "http://ponymail.incubator.apache.org/",
+"name": "Apache Pony Mail (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2016-05"
+},
+"sdap": {
+"description": "SDAP is an integrated data analytic center for Big Science problems.",
+"homepage": "http://sdap.incubator.apache.org/",
+"name": "Apache SDAP (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2017-10"
+},
+"sedona": {
+"description": "Sedona is a big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists to manage, wrangle, and process geospatial data.",
+"homepage": "http://sedona.incubator.apache.org/",
+"name": "Apache Sedona (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-07"
+},
+"shenyu": {
+"description": "ShenYu is a high performance Microservices API gateway in Java ecosystem, compatible with a variety of mainstream framework systems, it supports hot plugin loading.",
+"homepage": "http://shenyu.incubator.apache.org/",
+"name": "Apache ShenYu (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2021-05"
+},
+"spot": {
+"description": "Apache Spot is a platform for network telemetry built on an open data model and Apache Hadoop.",
+"homepage": "http://spot.incubator.apache.org/",
+"name": "Apache Spot (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2016-09"
+},
+"streampipes": {
+"description": "StreamPipes is a self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore (Industrial) IoT data streams.",
+"homepage": "http://streampipes.incubator.apache.org/",
+"name": "Apache StreamPipes (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2019-11"
+},
+"teaclave": {
+"description": "Teaclave is a universal secure computing platform.",
+"homepage": "http://teaclave.incubator.apache.org/",
+"name": "Apache Teaclave (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2019-08"
+},
+"toree": {
+"description": "Toree provides applications with a mechanism to interactively and remotely access Apache Spark.",
+"homepage": "http://toree.incubator.apache.org/",
+"name": "Apache Toree (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2015-12"
+},
+"training": {
+"description": "The Training project aims to develop resources which can be used for training purposes in various media formats, languages and for various Apache and non-Apache target projects.",
+"homepage": "http://training.incubator.apache.org/",
+"name": "Apache Training (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2019-02"
+},
+"tuweni": {
+"description": "Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages.",
+"homepage": "http://tuweni.incubator.apache.org/",
+"name": "Apache Tuweni (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2019-03"
+},
+"wayang": {
+"description": "Wayang is a cross-platform data processing system that aims at decoupling the business logic of data analytics applications from concrete data processing platforms, such as Apache Flink or Apache Spark. Hence, it tames the complexity that arises from the \"Cambrian explosion\" of novel data processing platforms that we currently witness.",
+"homepage": "http://wayang.incubator.apache.org/",
+"name": "Apache Wayang (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-12"
+},
+"yunikorn": {
+"description": "YuniKorn is a standalone resource scheduler responsible for scheduling batch jobs and long-running services on large scale distributed systems running in on-premises environments as well as different public clouds.",
+"homepage": "http://yunikorn.incubator.apache.org/",
+"name": "Apache YuniKorn (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-01"
+}
+}
